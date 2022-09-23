@@ -73,5 +73,5 @@ BEGIN
                             'This is a size 4 constant string '||const||CHR(13)||CHR(13)||
                             'The date a week from now is '||to_char(dmy,'DD/MM/YYYY')
                         );
-    --nom = 987654.55
+    --v_nom = 987654.55
 END;
