@@ -61,11 +61,11 @@ END;
 set SERVEROUTPUT ON;
 
 DECLARE
-    str VARCHAR2(50) := 'Introduction to Oracle PL/SQL';
-    nom NUMBER(8,2) := 987654.55;
-    const CONSTANT VARCHAR(4) := '603D';
-    bool BOOLEAN;
-    dmy DATE := SYSDATE+7;
+    v_str VARCHAR2(50) := 'Introduction to Oracle PL/SQL';
+    v_nom NUMBER(8,2) := 987654.55;
+    v_const CONSTANT VARCHAR(4) := '603D';
+    v_bool BOOLEAN;
+    v_dmy DATE := SYSDATE+7;
 BEGIN
     DBMS_OUTPUT.PUT_LINE(
                             'This is a size 50 string '||str||CHR(13)||CHR(13)||
